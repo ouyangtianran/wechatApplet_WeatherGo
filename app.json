@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/weather/weather"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Tianran",
+    "navigationBarTextStyle":"black"
+  }
+}
