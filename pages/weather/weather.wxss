@@ -17,7 +17,7 @@ display: flex;
 }
 .bg {
 width: 100%;
-height: 1800rpx;
+height: 1200rpx;
 }
 .temp{
 font-size: 170rpx;
@@ -29,24 +29,24 @@ top: 0;
 width: 100%;
 padding: 0;
 margin: 0;
-height: 1800rpx;
+height: 100%;
 display: block;
 }
 .nowWeather{
 padding: 60rpx;
 }
 .pm25{
-padding: 200px 60px 0px 30px;
+padding: 10px 20px 10px 20px;
 }
 .weahterDetail{
 width: 100%;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-padding: 10px 0px 100px 10px;
+padding: 0px 10px 20px 10px;
 }
 .forcast{
-padding: 50px 0px 0px 0px;
+padding: 30px 0px 0px 0px;
 margin-left: 10rpx;
 margin-right: 10rpx;
 font-size: 40rpx;

@@ -1,11 +1,33 @@
 {
-  "pages":[
-    "pages/weather/weather"
+  "pages": [
+    "pages/weather/weather",
+   
+    "pages/life/life"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Tianran",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气预报",
+        "iconPath":"images/weather0.png",
+        "selectedIconPath":"images/weather1.png"
+      },
+      {
+        "pagePath": "pages/life/life",
+        "text": "生活指数",
+        "iconPath": "images/sport0.png",
+        "selectedIconPath": "images/sport1.png"
+      }
+    ]
   }
 }

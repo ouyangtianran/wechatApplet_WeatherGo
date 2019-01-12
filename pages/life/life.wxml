@@ -1,0 +1,18 @@
+<!--pages/life/life.wxml-->
+<view class="container">
+  <view class="suggestion">
+    
+    <view wx:for="{{lifeindex}}" wx:for-index="i" wx:for-item="item">
+      <view class="list">
+        
+        <text class="list_l">{{type[i]}}</text>
+        
+        <view class="list_r">
+          <text class="list_t">{{item.brf}}</text>
+          <text>{{item.txt}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+

@@ -1,0 +1,32 @@
+/* pages/life/life.wxss */
+page {
+overflow:hidden;
+position:fixed;
+background-image:url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545121560141&di=87506c7961256c4d9650d8e65c85da3f&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180605%2Feb7df965654a4cadba0b8f2bf58fe910.jpeg');
+margin: 0px;
+/*下面的是关键的设置100%显示*/
+background-size: 100% 100%;
+}
+.container {
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+padding: 0;/**内边距**/
+margin: 0;/**外边距**/
+height: 100%;
+display: block; /**块级元素**/
+}
+.suggestion{ margin-top: 5%;}
+.title{ display: block; padding: 3% 5%; }
+.list{ display: flex; font-size: 12px; margin-top: 1px; }
+.list_l{ 
+  flex:1;
+  text-align: center;
+  color:white;
+  font-size: 20px;
+  margin: auto 0;
+  justify-content: space-around;}
+
+.list_r{ flex: 4; padding: 3px; color: rgb(255, 245, 212);}
+.list_t{ font-size: 14px; display: block; margin-bottom: 5px; color: white;}
